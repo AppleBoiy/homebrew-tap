@@ -1,5 +1,5 @@
 
-class HelloworldSs < Formula
+class HelloworldSh < Formula
   desc "a hello world program written in Bash"
   homepage "https://github.com/AppleBoiy/helloworld.js"
   url "https://github.com/AppleBoiy/helloworld.js/releases/download/v1.0.0/helloworld.tar.gz"
