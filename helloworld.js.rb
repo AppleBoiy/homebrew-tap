@@ -1,6 +1,3 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class HelloworldJs < Formula
   desc "a hello world program written in javascript"
   homepage "https://github.com/AppleBoiy/helloworld.js"
