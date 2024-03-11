@@ -5,7 +5,7 @@ class HelloworldJs < Formula
   desc "a hello world program written in javascript"
   homepage "https://github.com/AppleBoiy/helloworld.js"
   url "https://github.com/AppleBoiy/helloworld.js/releases/download/v1.0.0/helloworld.tar.gz"
-  sha256 "1fbb61a82b1479597539f87788cb2c9bf3ce1721d4279d0c99646273e143974b"
+  sha256 "94c1bba3dfba3926e46b8d911f4a81e1a5540df375d2dba2ed2dd6b3e76516d1"
   license "ISC"
 
   # depends_on "cmake" => :build
