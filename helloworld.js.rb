@@ -11,7 +11,7 @@ class HelloworldJs < Formula
   # depends_on "cmake" => :build
 
   def install
-    bin.Install "helloworld.js"  
+    bin.install "helloworld.js"  
   end
 
   test do
