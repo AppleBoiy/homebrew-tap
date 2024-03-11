@@ -19,7 +19,7 @@ brew install AppleBoiy/tap/<formula>
 | Formula                                                               | Description                                             |
 |-----------------------------------------------------------------------|---------------------------------------------------------|
 | [**`helloworld.js`**](https://github.com/AppleBoiy/helloworld.js.git) | A simple "Hello, World!" program written in JavaScript. |
-
+| [**`helloworld.sh`**](https://github.com/AppleBoiy/helloworld.sh.git) | A simple "Hello, World!" program written in Bash. |
 ---
 
 Need assistance? Check out my [discussion board](https://github.com/AppleBoiy/cs-wiki101/discussions) or review the [GitHub status page](https://www.githubstatus.com).
