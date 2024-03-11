@@ -1,13 +1,13 @@
 
 class HelloworldSh < Formula
   desc "a hello world program written in Bash"
-  homepage "https://github.com/AppleBoiy/helloworld.js"
+  homepage "https://github.com/AppleBoiy/helloworld.sh"
   url "https://github.com/AppleBoiy/helloworld.sh/releases/download/v1.0.0/main.sh.tar.gz"
   sha256 "4d309a405ef8ef2c70049fd1c18d3bc231fd75ad33ba4ef2f0c27a088ac06df2"
   license "MIT"
 
   def install
-    bin.install "helloworld`:`"
+    bin.install "helloworld.sh"
   end
 
   test do
