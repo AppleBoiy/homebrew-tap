@@ -12,7 +12,7 @@ class Csenv < Formula
     # post_install
     def post_install
       # say hello to the user
-      run ["csenv", "$(whoami)"]
+      system "#{bin}/csenv $(whoami)"
     end
   
     test do
