@@ -11,6 +11,12 @@ class Csenv < Formula
       # give permission to execute
       system "chmod +x #{bin}/csenv"
     end
+
+    # post_install
+    def post_install
+      # say hello to the user
+      system "csenv $(whoami)"
+    end
   
     test do
       system "#{bin}/csenv"    
