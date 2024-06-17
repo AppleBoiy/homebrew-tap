@@ -6,11 +6,11 @@ class Csenv < Formula
     license "MIT"
   
     def install
-      bin.install "csenv"
+      bin.install "test"
     end
   
     test do
-      system "#{bin}/csenv"    
+      system "#{bin}/test"    
     end
   end
   
