@@ -7,15 +7,12 @@ class Csenv < Formula
   
     def install
       bin.install "csenv"
-
-      # give permission to execute
-      system "chmod +x #{bin}/csenv"
     end
 
     # post_install
     def post_install
       # say hello to the user
-      system "csenv $(whoami)"
+      run ["csenv", "$(whoami)"]
     end
   
     test do
