@@ -7,6 +7,9 @@ class Csenv < Formula
   
     def install
       bin.install "csenv"
+
+      # give permission to execute
+      system "chmod +x #{bin}/csenv"
     end
   
     test do
