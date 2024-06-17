@@ -8,12 +8,6 @@ class Csenv < Formula
     def install
       bin.install "csenv"
     end
-
-    # post_install
-    def post_install
-      # say hello to the user
-      system "#{bin}/csenv $(whoami)"
-    end
   
     test do
       system "#{bin}/csenv"    
