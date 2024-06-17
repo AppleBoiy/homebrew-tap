@@ -2,7 +2,7 @@ class Csenv < Formula
     desc "Single command to install dependencies for courses in CSCMU."
     homepage "https://github.com/AppleBoiy/csenv"
     url "https://github.com/AppleBoiy/csenv/releases/download/0.0.2a/csenv_0.0.2a.tar.gz"
-    sha256 "989e96daccc68d931284fa55412d850adb0f7e8d8bf82967aef8f564c2576989"
+    sha256 "799c4d0c06034002910eab26090a3cfd5ba7248817fdb05e1ce97bd5b7daf676"
     license "MIT"
   
     def install
